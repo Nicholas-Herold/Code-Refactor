@@ -4,10 +4,12 @@
 	margin: 0;
 }
 
+/* body */
 body {
 	background-color: #d9dcd6;
 }
 
+/* header */
 .header {
 	padding: 20px;
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -41,24 +43,17 @@ body {
 	display: inline-block;
 	margin-left: 25px;
 }
-
+/* links */
 a {
 	color: #ffffff;
 	text-decoration: none;
 }
-
+/* paragraphs */
 p {
 	font-size: 16px;
 }
 
-.hero {
-	height: 800px;
-	width: 100%;
-	margin-bottom: 25px;
-	background-image: url("../images/digital-marketing-meeting.jpg");
-	background-size: cover;
-	background-position: center;
-}
+/* float */
 
 .float-left {
 	float: left;
@@ -70,12 +65,13 @@ p {
 	margin-left: 25px;
 }
 
+/* section */
 .content {
 	width: 75%;
 	display: inline-block;
 	margin-left: 20px;
 }
-
+/* Aside */
 .benefits {
 	margin-right: 20px;
 	padding: 20px;
@@ -102,38 +98,7 @@ p {
 	color: #ffffff;
 }
 
-.benefit-lead h3 {
-	margin-bottom: 10px;
-	text-align: center;
-}
-
-.benefit-brand h3 {
-	margin-bottom: 10px;
-	text-align: center;
-}
-
-.benefit-cost h3 {
-	margin-bottom: 10px;
-	text-align: center;
-}
-
-.benefit-lead img {
-	display: block;
-	margin: 10px auto;
-	max-width: 150px;
-}
-
-.benefit-brand img {
-	display: block;
-	margin: 10px auto;
-	max-width: 150px;
-}
-
-.benefit-cost img {
-	display: block;
-	margin: 10px auto;
-	max-width: 150px;
-}
+/* articls */
 
 .search-engine-optimization {
 	margin-bottom: 20px;
@@ -162,6 +127,34 @@ p {
 	color: #ffffff;
 }
 
+/* image */
+
+.benefit-lead img {
+	display: block;
+	margin: 10px auto;
+	max-width: 150px;
+}
+
+.benefit-brand img {
+	display: block;
+	margin: 10px auto;
+	max-width: 150px;
+}
+
+.benefit-cost img {
+	display: block;
+	margin: 10px auto;
+	max-width: 150px;
+}
+
+.hero {
+	max-height: 800px;
+	width: 100%;
+	margin-bottom: 25px;
+	background-size: cover;
+	background-position: center;
+}
+
 .search-engine-optimization img {
 	max-height: 200px;
 }
@@ -173,6 +166,8 @@ p {
 .social-media-marketing img {
 	max-height: 200px;
 }
+
+/* H2,H3 */
 
 .search-engine-optimization h2 {
 	margin-bottom: 20px;
@@ -189,7 +184,23 @@ p {
 	font-size: 36px;
 }
 
-.footer {
+.benefit-lead h3 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.benefit-brand h3 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.benefit-cost h3 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+/* footer */
+footer {
 	padding: 30px;
 	clear: both;
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -197,6 +208,6 @@ p {
 	text-align: center;
 }
 
-.footer h2 {
+footer h2 {
 	font-size: 20px;
 }
